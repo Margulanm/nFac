@@ -4,9 +4,6 @@ import First from "./first";
 import Second from "./second";
 
 const handleOne = () => {
-    <Routes>
-      <Route path="second" element={<Second/>} />
-    </Routes>
    
 }
 const Tool = () => {
