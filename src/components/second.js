@@ -14,12 +14,3 @@ const Second = () => {
 }
 export default Second;
 
-const App = () => {
-  return (
-    <div>
-      <input type="text" value="initial value" />
-    </div>
-  );
-};
-
-export default App;
