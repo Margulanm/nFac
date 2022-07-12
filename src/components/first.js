@@ -6,7 +6,7 @@ const First = ({handleOne}) => {
         <div className="first">
         <h1 className="header"> Отбасы құр</h1>
        <img src="Group 172.jpg" alt="rings" className='image'/>
-       <NavLink to="/second"><button className="buttonOne" onClick={handleOne}> Үйлену </button></NavLink>
+       <NavLink to="second"><button className="buttonOne" onClick={handleOne}> Үйлену </button></NavLink>
       </div>
     )
 }

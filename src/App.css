@@ -75,28 +75,3 @@
   border-radius: 10px;
   border-color: #DAAC9A;
 }
-.button{
-  background: #955941;
-  color: #fff;
-  border: 0;
-  padding: 8px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.label1{
-  text-align: left;
-  display: block;
-  color:#af7e65;
-  border:3px;
-  border-color: #76432e;
-  font-size: 30px;
-}
-
-.input1{
-  width: 100%;
-  padding: 6px 10px;
-  margin: 10px 0;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  display: block;
-}
