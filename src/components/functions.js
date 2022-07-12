@@ -11,12 +11,15 @@ const handleOne = () => {
 const handleTwo = () => {
 
 }
+const handleThree = () => {
+
+}
 const Tool = () => {
     return (
         <Routes>
             <Route path="" element={<First handleOne={handleOne}/>} />
             <Route path="/second" element={<Second handleTwo={handleTwo}/>} />
-            <Route path="/third" element={<Third/>} />
+            <Route path="/third" element={<Third handleThree={handleThree}/>} />
             <Route path="/fourth" element={<Fourth/>} />
         </Routes>
     )
