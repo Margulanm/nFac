@@ -6,6 +6,7 @@ const First = () => {
         <div className="first">
         <h1 className="header"> Отбасы құр</h1>
        <img src="Group 172.jpg" alt="rings" className='image'/>
+       <button className="buttonOne"> Үйлену </button>
       </div>
     )
 }
