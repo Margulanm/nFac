@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .first{
   display: flex;
   background: linear-gradient(#F8E3C9, #F6F4EC);
@@ -15,5 +19,7 @@
 .header{
   color: #CCA18B;
   font-size: 100px;
-  justify-content: space-between;
+  min-height: 100vh;
+  background-position: center;
+  position: relative;
 }
