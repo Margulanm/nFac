@@ -27,14 +27,24 @@
 .header2{
   z-index: 0;
   color: #CCA18B;
-  font-size: 60px;
-  min-height: 100vh;
+  font-size: 40px;
   position: absolute;
   text-align: center;
   top: 0;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 60px;
 }
+.header3{
+  z-index: 0;
+  color: #CCA18B;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
 .image{
   position: absolute;
   height: 400px;
