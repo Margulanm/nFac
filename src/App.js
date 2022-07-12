@@ -1,10 +1,10 @@
-import First from './components/first';
 import './App.css';
+import Tool from './components/functions';
 
 
 function App() {
   return (
-   <First/>
+   <Tool/>
   );
 }
 
