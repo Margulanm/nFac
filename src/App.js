@@ -3,7 +3,9 @@ import Tool from './components/functions';
 
 function App() {
   return (
+    <div>
    <Tool/>
+   </div>
   );
 }
 

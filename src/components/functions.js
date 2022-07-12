@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import First from "./first";
 import Second from "./second";
-
 const handleOne = () => {
    
 }
@@ -14,5 +13,4 @@ const Tool = () => {
         </Routes>
     )
 }
-
 export default Tool

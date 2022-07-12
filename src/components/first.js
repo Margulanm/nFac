@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import '../App.css';
-
 const First = ({handleOne}) => {
     return (
         <div className="first">
