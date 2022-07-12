@@ -1,22 +1,25 @@
 import React from "react";
 import '../App.css';
+import { NavLink } from "react-router-dom";
 
-const Second = () => {
+const Second = ({handleTwo}) => {
     return (
            <div className="first">
         <h1 className="header3"> СУРЕТКЕ ТҮС </h1>
         <h2 className="header2"> бірінші адам </h2>
         <form>
-  <label> Атыңыз: </label>
+  <label className="label1"> Атыңыз: </label>
   <input 
+  className="input1"
   type = "text"
   required/>
-    <label> Тегіңіз: </label>
+    <label className="label1"> Тегіңіз: </label>
     <input 
+    className="input1"
     type="text"
     required
     />
-    <button> Келесі</button>
+     <NavLink to="/third"><button className="button" onClick={handleTwo}> Келесі</button></NavLink>
 </form>
            </div>
            
