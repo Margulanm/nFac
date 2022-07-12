@@ -9,17 +9,21 @@
   width: 100vw;
   height: 100vh;
 }
+
+.header{
+  z-index: 100;
+  color: #CCA18B;
+  font-size: 100px;
+  min-height: 100vh;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
 .image{
   height: 60%;
   width: 60%s;
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
-}
-.header{
-  color: #CCA18B;
-  font-size: 100px;
-  min-height: 100vh;
-  background-position: center;
-  position: relative;
 }
