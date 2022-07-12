@@ -18,11 +18,12 @@
   position: absolute;
   text-align: center;
   top: 0;
+  width: 100%;
 }
 .image{
-  height: 60%;
-  width: 60%s;
+  height: 50%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 200px;
+  margin-top: 150px;
 }
